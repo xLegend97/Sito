@@ -7,20 +7,20 @@ body {
 p {font-size: 16px;}
 .margin {margin-bottom: 45px;}
 .bg-1 {
-    background-color: #2f2f2f; /* Green */
-    color: #ffffff;
+    background-color: white; /* Green */
+    color: #333;
 }
 .bg-2 {
-    background-color: #474e5d; /* Dark Blue */
-    color: #ffffff;
+    background-color: whitesmoke; /* Dark Blue */
+    color: #333;
 }
 .bg-3 {
-    background-color: #ffffff; /* White */
-    color: #555555;
+    background-color: grey; /* White */
+    color: #f5f6f7;
 }
 .bg-4 {
     background-color: #2f2f2f; /* Black Gray */
-    color: #fff;
+    color: #f5f6f7;
 }
 .container-fluid {
     padding-top: 70px;
