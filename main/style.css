@@ -22,3 +22,23 @@ body {
     text-align: center;
     background-color: blue;
 }
+
+.who {
+    margin-top: 45vh;
+}
+
+.what {
+    margin-top: 45vh;
+}
+
+.where {
+    margin-top: 45vh;
+}
+
+.foot1 {
+    height: 25vh;
+    background-color: black;
+    text-align: center;
+    color: white;
+    font-family: Montserrat, monospace;
+}
