@@ -2,43 +2,81 @@ body {
     position: relative;
 }
 
+.WHO {
+    color: black;
+}
+
+.WHAT {
+    color: black;
+}
+
+.WHERE {
+    color: black;
+}
+
+.nav-brand1 {
+    font-family: Montserrat, monospace;
+}
+
 .cont1 {
+    color: black;
     padding-top: 52px;
     height: 100vh;
     text-align: center;
-    background-color: red;
+    margin-bottom: 0;
+    /*background-color: red;*/
+    background-color: lightgray;
 }
 
 .cont2 {
+    color: black;
     padding-top: 50px;
     height: 100vh;
     text-align: center;
-    background-color: green;
+    margin-bottom: 0;
+    /*background-color: green;*/
+    background-color: grey;
 }
 
 .cont3 {
+    color: black;
     padding-top: 50px;
     height: 100vh;
     text-align: center;
-    background-color: blue;
+    margin-bottom: 0;
+    /*background-color: blue;*/
+    background-color: darkgray;
 }
 
 .who {
-    margin-top: 45vh;
+    margin-top: 35vh;
 }
 
 .what {
-    margin-top: 45vh;
+    margin-top: 35vh;
 }
 
 .where {
-    margin-top: 45vh;
+    margin-top: 35vh;
 }
 
 .foot1 {
     height: 25vh;
-    background-color: black;
+    background-color: #e7e7e7;
     text-align: center;
-    color: white;
+    color: black;
     font-family: Montserrat, monospace;
+}
+
+.navbar {
+    font-family: Montserrat, monospace;
+}
+
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
+    color: black;
+    background-color: #eee;
+}
+
+.navbar-default .navbar-brand {
+    color: black;
 }
