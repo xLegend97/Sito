@@ -68,10 +68,6 @@ body {
     font-family: Montserrat, monospace;
 }
 
-.navbar {
-    font-family: Montserrat, monospace;
-}
-
 .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
     color: black;
     background-color: #eee;
@@ -79,4 +75,56 @@ body {
 
 .navbar-default .navbar-brand {
     color: black;
+}
+
+.btn1 {
+    background-color: #e7e7e7;
+    border: none;
+    color: black;
+    padding: 16px 32px;
+    text-align: center;
+    font-size: 16px;
+    margin: 4px 2px;
+    margin-top: 20vh;
+    transition: 0.3s;
+}
+
+.btn1:hover {
+    /*background-color: red;*/
+    background-color: #e10000;
+    color: white;
+}
+
+.btn2 {
+    background-color: #e7e7e7;
+    border: none;
+    color: black;
+    padding: 16px 32px;
+    text-align: center;
+    font-size: 16px;
+    margin: 4px 2px;
+    margin-top: 20vh;
+    transition: 0.3s;
+}
+
+.btn2:hover {
+    background-color: #007a00;
+    color: white;
+}
+
+.btn3 {
+    background-color: #e7e7e7;
+    border: none;
+    color: black;
+    padding: 16px 32px;
+    text-align: center;
+    font-size: 16px;
+    margin: 4px 2px;
+    margin-top: 20vh;
+    transition: 0.3s;
+}
+
+.btn3:hover {
+    background-color: #00008c;
+    color: white;
 }

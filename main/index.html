@@ -9,6 +9,7 @@
     <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="script.js"></script>
 </head>
 <body data-spy="scroll" data-target=".navbar" data-offset="50">
 
@@ -36,25 +37,28 @@
 <!-- First Container -->
 <div id="WHO" class="container-fluid jumbotron cont1">
     <h1 class="who">WHO</h1>
-    <p>I'm a dreamer.</p>
+    <p id="sm1">I'm a dreamer.</p>
+    <button class="btn1" onclick="showMore1()">Show more</button>
 </div>
 
 <!-- Second Container -->
 <div id="WHAT" class="container-fluid jumbotron cont2">
     <h1 class="what">WHAT</h1>
-    <p>I'm a Computer Science student.</p>
+    <p id="sm2">I'm a Computer Science student.</p>
+    <button class="btn2" onclick="showMore2()">Show more</button>
 </div>
 
 <!-- Third Container -->
 <div id="WHERE" class="container-fluid jumbotron cont3">
     <h1 class="where">WHERE</h1>
-    <p>From The University of Genoa.</p>
+    <p id="sm3">From The University of Genoa.</p>
+    <button class="btn3" onclick="showMore3()">Show more</button>
 </div>
 
 <!-- Footer -->
 <div class="container-fluid footer foot1">
     <p style="padding-top: 10vh;">Facebook | Instagram | Telegram</p>
-    <p style="padding-top: 5vh;">Made with Bootstrap</p>
+    <p style="padding-top: 5vh;">Made with <a href="https://getbootstrap.com/">Bootstrap</a></p>
 </div>
 
 </body>
