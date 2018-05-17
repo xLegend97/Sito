@@ -1,10 +1,7 @@
 function showMore1() {
     var x = document.getElementById("sm1");
-    console.log(x);
-    console.log(x.innerText);
-    console.log(x.innerHTML);
     if (x.innerHTML === "I'm a dreamer.") {
-        x.innerHTML = "Swapped text!";
+        x.innerHTML = "I grew up with cartoons, movies and music that made me dream and made me who I am.";
     } else {
         x.innerHTML = "I'm a dreamer.";
     }
@@ -13,7 +10,7 @@ function showMore1() {
 function showMore2() {
     var x = document.getElementById("sm2");
     if (x.innerHTML === "I'm a Computer Science student.") {
-        x.innerHTML = "Swapped text!";
+        x.innerHTML = "I'm studying computer science at the University of Genoa. My computer skills are: C, C ++, HTML, CSS, JAVASCRIPT and PYTHON.";
     } else {
         x.innerHTML = "I'm a Computer Science student.";
     }
@@ -21,9 +18,9 @@ function showMore2() {
 
 function showMore3() {
     var x = document.getElementById("sm3");
-    if (x.innerHTML === "From The University of Genoa.") {
-        x.innerHTML = "Swapped text!";
+    if (x.innerHTML === "From Imperia, Italy.") {
+        x.innerHTML = "I grew up in this small town, where I studied and graduated from the Ruffini Institute as a surveyor.";
     } else {
-        x.innerHTML = "From The University of Genoa.";
+        x.innerHTML = "From Imperia, Italy.";
     }
 }
